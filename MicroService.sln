@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GateWay", "GateWay\GateWay.csproj", "{04B85DE4-4C14-4F1E-BAA4-C30E8204531F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{27B9D6EC-AB65-40C8-AE23-C573842AAFD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserServices", "UserServices\UserServices.csproj", "{A1382115-9163-402F-89C8-99B132687952}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04B85DE4-4C14-4F1E-BAA4-C30E8204531F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B85DE4-4C14-4F1E-BAA4-C30E8204531F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B85DE4-4C14-4F1E-BAA4-C30E8204531F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B85DE4-4C14-4F1E-BAA4-C30E8204531F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1382115-9163-402F-89C8-99B132687952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1382115-9163-402F-89C8-99B132687952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1382115-9163-402F-89C8-99B132687952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1382115-9163-402F-89C8-99B132687952}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1382115-9163-402F-89C8-99B132687952} = {27B9D6EC-AB65-40C8-AE23-C573842AAFD3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64099CCC-35FB-4982-BDC1-658AE41E0D1A}
+	EndGlobalSection
+EndGlobal
